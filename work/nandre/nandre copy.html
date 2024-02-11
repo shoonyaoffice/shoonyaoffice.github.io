@@ -46,20 +46,19 @@
 
       .carousel-control-prev, .carousel-control-next {
         filter: invert(50%); 
-    }
-
-    /* list carousel on mobile */
-    @media screen and (max-width:767px) {
-      ul.user-items-list-carousel__slides.user-items-list-carousel__slides--initialized {
-          display: block !important;
       }
-      li.user-items-list-carousel__slide.list-item.list-item-basic-animation {
-          transform: unset !important;
-          margin-bottom: 20px;
+    
+      @media screen and (min-width:993px) {
+    
+        .carousel.vertical .item {right: 0;}
+        .carousel.vertical .active,
+        .carousel.vertical .next.left,
+        .carousel.vertical .prev.right    { top:     0; right:0;}
+        .carousel.vertical .next,
+        .carousel.vertical .active.right  { top:0;right:  -100%; }
+        .carousel.vertical .prev,
+        .carousel.vertical .active.left   { top:0;right: 100%; }
       }
-      }
-
-  
     </style>
 
     
