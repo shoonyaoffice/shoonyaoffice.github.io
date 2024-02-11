@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
@@ -23,6 +23,9 @@
 <link rel="manifest" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/manifest.json">
 <link rel="mask-icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
 <link rel="icon" href="https://getbootstrap.com/docs/5.1/assets/img/favicons/favicon.ico">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
 <meta name="theme-color" content="#7952b3">
 
 
@@ -40,6 +43,10 @@
           font-size: 3.5rem;
         }
       }
+
+      .carousel-control-prev, .carousel-control-next {
+        filter: invert(50%); 
+    }
     </style>
 
     
@@ -122,10 +129,13 @@
                       <div class="carousel-inner" style="position: relative;
                       width: 100%;
                       height: 500px !important;
+                      object-fit: contain;
+                      object-position: center;
                       overflow: hidden" >
                           <div class="carousel-item active text-center mx-auto" style ="height:100%" >
-                              <a href="images/palifull.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
-                                  <img src="images/palifull.jpeg" class="rounded img-fluid " alt="..." style ="width: 100%;
+                              <a href="images/image1.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                                  <img src="images/image1.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
                               height: 100%;
                               object-fit: contain;
                               object-position: center;">
@@ -133,22 +143,89 @@
                               </a>
                               
                           </div>
+
+
                           <div class="carousel-item text-center mx-auto" style ="height:100%">
-                              <a href="images/manchar2.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
-                              <img src="images/manchar2.jpeg" class="rounded img-fluid " alt="..." style ="width: 100%;
+                              <a href="images/image2.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                              <img src="images/image2.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
                               height: 100%;
                               object-fit: contain;
                               object-position: center;">
                           </a>
                           </div>
                           <div class="carousel-item text-center mx-auto" style ="height:100%">
-                              <a href="images/palifull.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
-                              <img src="images/palifull.jpeg" class="rounded img-fluid " alt="..." style ="width: 100%;
+                              <a href="images/image3.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                              <img src="images/image3.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
                               height: 100%;
                               object-fit: contain;
                               object-position: center;">
                           </a>
                           </div>
+
+
+                          <div class="carousel-item text-center mx-auto" style ="height:100%" >
+                            <a href="images/image4.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                                <img src="images/image4.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                              object-position: center;">
+
+                            </a>
+                            
+                          </div>
+                          <div class="carousel-item text-center mx-auto" style ="height:100%">
+                              <a href="images/image5.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                              <img src="images/image5.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                              object-position: center;">
+                          </a>
+                          </div>
+                          <div class="carousel-item text-center mx-auto" style ="height:100%">
+                              <a href="images/image6.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                              <img src="images/image6.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                              object-position: center;">
+                          </a>
+                          </div>
+
+                          <div class="carousel-item text-center mx-auto" style ="height:100%" >
+                            <a href="images/image7.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                                <img src="images/image7.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                              object-position: center;">
+
+                            </a>
+                            
+                          </div>
+                          <div class="carousel-item text-center mx-auto" style ="height:100%">
+                              <a href="images/image8.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                              <img src="images/image8.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                              object-position: center;">
+                          </a>
+                          </div>
+                          <div class="carousel-item text-center mx-auto" style ="height:100%">
+                              <a href="images/image9.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen">
+                              <img src="images/image9.jpeg" class="rounded img-fluid " alt="..." 
+                              style ="width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                              object-position: center;">
+                          </a>
+                          </div>
+
+
                       </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -178,58 +255,42 @@
               <div class="carousel-item active">
                 <div class="row">
                       <div class="col-sm-2">
-                        <a href="images/palifull.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                      <img src="images/palifull.jpeg" class="rounded img-fluid " alt="..." >
+                        <a href="images/draw1.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                      <img src="images/draw1.jpg" class="rounded img-fluid " alt="..." >
                         </a>
                       </div>
                       <div class="col-sm-2">
-                        <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                          <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
+                        <a href="images/draw2.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                          <img src="images/draw2.jpg" class="rounded img-fluid " alt="..." ></a>
                       </div>
                       <div class="col-sm-2">
-                        <a href="images/palifull.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                          <img src="images/palifull.jpeg" class="rounded img-fluid " alt="..." ></a>
+                        <a href="images/draw3.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                          <img src="images/draw3.jpg" class="rounded img-fluid " alt="..." ></a>
                       </div>
                       <div class="col-sm-2">
-                        <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                          <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
+                        <a href="images/draw4.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                          <img src="images/draw4.jpg" class="rounded img-fluid " alt="..." ></a>
                       </div>
                       <div class="col-sm-2">
-                        <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                          <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
+                        <a href="images/draw5.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                          <img src="images/draw5.jpg" class="rounded img-fluid " alt="..." ></a>
                       </div>
                       <div class="col-sm-2">
-                        <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                          <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
+                        <a href="images/draw6.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                          <img src="images/draw6.jpg" class="rounded img-fluid " alt="..." ></a>
                       </div>
+ 
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-sm-2">
-                    <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                      <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
+                    <a href="images/draw7.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                      <img src="images/draw7.jpg" class="rounded img-fluid " alt="..." ></a>
                   </div>
                   <div class="col-sm-2">
-                    <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                      <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                      <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                      <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
-                  </a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                      <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
-                  </div>
-                  <div class="col-sm-2">
-                    <a href="images/drawing.jpeg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
-                      <img src="images/drawing.jpeg" class="rounded img-fluid " alt="..." ></a>
+                    <a href="images/draw8.jpg" data-toggle="lightbox" data-gallery="example-gallery" size="fullscreen"></a>
+                      <img src="images/draw8.jpg" class="rounded img-fluid " alt="..." ></a>
                   </div>
                 </div>
               </div>
